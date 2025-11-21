@@ -27,15 +27,15 @@ const Footer = () => {
         <div>
           <h3 className="font-semibold text-sm mb-2">Follow Me</h3>
           <div className="flex gap-4">
-            <a href="https://github.com" target="_blank" className="hover:text-white">
+            <a href="https://github.com/Arbazali0347" target="_blank" className="hover:text-white">
               <Github size={20} />
             </a>
 
-            <a href="https://linkedin.com" target="_blank" className="hover:text-white">
+            <a href="https://www.linkedin.com/in/arbaz-ali-290917325" target="_blank" className="hover:text-white">
               <Linkedin size={20} />
             </a>
 
-            <a href="https://arbaz-portfolio.com" target="_blank" className="hover:text-white">
+            <a href="https://arbazali.framer.website" target="_blank" className="hover:text-white">
               <Globe size={20} />
             </a>
           </div>
