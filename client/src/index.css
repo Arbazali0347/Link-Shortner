@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+body {
+  background: radial-gradient(circle at top, #1b1b1b, #0b0b0b 70%);
+  color: white;
+}
+
+@keyframes fadeInOut {
+  0% { opacity: 0; transform: translate(-50%, 20px); }
+  10% { opacity: 1; transform: translate(-50%, 0); }
+  90% { opacity: 1; transform: translate(-50%, 0); }
+  100% { opacity: 0; transform: translate(-50%, 20px); }
+}
+
+.animate-fadeInOut {
+  animation: fadeInOut 2s ease-in-out;
+}
